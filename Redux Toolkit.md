@@ -33,6 +33,10 @@ In Redux Toolkit, a slice is a collection of reducer logic and actions for a spe
         },
     },
     });
+    
+export const { increment, decrement } = counterSlice.actions;
+export default counterSlice.reducer;
+    
 
 ```
 
